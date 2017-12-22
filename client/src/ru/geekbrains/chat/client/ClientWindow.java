@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class ClientWindow extends JFrame implements ActionListener, TCPConnectionListener {
 
-    private static final String IP_ADDR = "89.222.249.131";
+    private static final String IP_ADDR = "192.168.0.123";
     private static final int PORT = 8189;
     private static final int WIDTH = 600;
     private static final int HEIGHT = 400;
@@ -26,7 +26,7 @@ public class ClientWindow extends JFrame implements ActionListener, TCPConnectio
     }
 
     private final JTextArea log = new JTextArea();
-    private final JTextField fieldNickname = new JTextField("alex");
+    private final JTextField fieldNickname = new JTextField("iTeam");
     private final JTextField fieldInput = new JTextField();
 
     private TCPConnection connection;
